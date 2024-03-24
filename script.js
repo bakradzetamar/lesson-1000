@@ -17,7 +17,7 @@ function fetchWeather(lat, lon) {
     });
 }
 
-// Function to display current time
+
 function displayTime() {
   const now = new Date();
   const hours = now.getHours();
@@ -28,7 +28,7 @@ function displayTime() {
   document.getElementById('time').textContent = timeString;
 }
 
-// Function to display timer
+// Function timer
 function displayTimer() {
   const currentTime = new Date().getTime();
   const countDownDate = new Date(currentTime + 60000 * 10); // Timer for 10 minutes
@@ -50,14 +50,13 @@ function displayTimer() {
   }, 1000);
 }
 
-// Call fetchWeather function when the page loads
-// For demonstration, we'll use coordinates of New York City
+
 const latitude = 40.7128;
 const longitude = -74.0060;
 fetchWeather(latitude, longitude);
 
-// Call displayTime function every second to update the clock
+
 setInterval(displayTime, 1000);
 
-// Call displayTimer function to start the timer
+
 displayTimer();

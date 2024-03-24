@@ -1,5 +1,6 @@
 "use strick";
 
+
 let slider_img = document.querySelector('.slider-img');
 let images =  ['a.jpg', 'b.jpg', 'c.jpg'];
 let i = 0;

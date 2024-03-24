@@ -1,0 +1,764 @@
+
+
+@media screen and (max-width: 750px) {
+    .header .icon-h2 {
+        font-size: 18px;
+    }
+    
+    .ham-menu span {
+        width: 20px;
+        height: 2px;
+        margin: 4px 0;
+    }
+    
+    .main-div {
+        padding: 0 10px;
+    }
+
+    .slid .list .item  img {
+        max-width: 90vh;
+        width: 100%;
+        height: 100%;
+           object-fit: cover;
+       margin-left: 15%;
+    } 
+    .thumbnail .items img {
+        width: 90%;
+        height: 100%;
+         -o-object-fit: cover;
+            object-fit: cover;
+       
+    }
+    .thumbnail .items .content {
+        position: absolute;
+        inset: auto 5px 5px 5px;
+        
+    } 
+    .thumbnail .items {
+        width: 120px;
+        height: 150px;}
+    .al {
+       
+        padding-left: 7px;
+    }
+    /*neon   */
+.card {
+    cursor: pointer;
+    width: 70%;
+    height: 300px;
+    position: relative;
+    margin-top: 30%;
+
+}
+
+.neon h2 {
+    color: black;
+    font-size: 4em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+.best{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.neon h3 {
+    
+    font-size: 4em;
+    letter-spacing: 13px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;}
+.front img {
+    height: 100%;
+    width: 100%;
+ }
+ .back img {
+     height: 100%;
+    width: 100%;
+ } 
+
+
+    /* parts */
+    .dentalparts-maindiv {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .dental-parts {
+       display: flex; 
+        height: auto; 
+        
+        
+    }
+
+    .dentparts p {
+        width: 100%;
+    font-size: 20px;
+        height: auto;
+    }
+
+    .dentparts h2 {
+        font-size: 24px; 
+    }
+
+   
+     .dental-div h4 {
+        font-size: 20px;
+        position: absolute;
+        z-index: 6;
+        top: 50%;
+        left: 10px;
+     
+          }
+        .dental-div img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            z-index: 3;
+           
+            
+        }
+        
+       
+    
+            .dental-div {
+                position: relative;
+                width: 150px;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               border-radius: 20px;
+               margin-bottom: 30px;
+               
+            }
+/* aside */
+
+
+aside {
+    width: 35%;
+    height: 350px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 50px;
+    float: left;
+    font-style: italic;
+    /* background-color: lightgray; */
+  }
+  .aside-text {
+      width: 100%;
+      height: 150px;  
+  }
+  .asaidetext-h2{
+      font-size: 30px;
+      padding-bottom: 20px;
+  }
+  .asaidetext-h3 {
+      font-size: 20px;
+      padding-bottom: 20px;
+      padding-top: 40px;
+  }
+  .asaidetext-p {
+      font-size: 16px;
+      padding-bottom: 20px;
+      font-weight: 300px;
+    }
+    
+  
+  .dentalparts-maindiv{
+      margin-bottom: 50px;
+  }
+  .dentalparts-maindiv{
+      margin-bottom: 50px;
+  }
+
+  
+  
+  #formal{
+    width:300px;
+    margin-left: -40px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+   
+}
+#form{
+    width:300px;
+    margin-left: 80px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+   
+
+}
+
+#form button,
+#formal button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+
+.input-group{
+   
+    margin-bottom: 7px; }
+ 
+
+.input-group input{
+   
+    font-size:10px; 
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+
+
+.container {
+    margin-top: 30%;
+    height: 500px;
+    width: 300px;
+}
+  
+.btn {
+    height: 40px;
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 50px;
+  
+}
+ 
+.login,
+.signup {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.slider {
+    height: 40px;
+    width: 80px;
+    border-radius: 50px;
+    top: 10px;
+    left: 70px;
+ 
+}
+.moveslider {
+    left: 150px;
+}
+.form-section {
+    height: 500px;
+    width: 500px;
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+    
+    transition: all 0.5s ease-in-out;
+    left: 0px;
+}
+ 
+.form-section-move {
+    left: -500px;}
+
+.img-container1{
+    flex-direction: column;
+    width: 100%;
+}
+.div-corol {
+    width: 90%;
+}
+.map-item {
+    width: 90%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+     .header {
+        width: 100%;
+     }
+    .header .icon-h2 {
+        font-size: 18px;
+    }
+    
+    .ham-menu span {
+        width: 20px;
+        height: 2px;
+        margin: 4px 0;
+    }
+    
+    .main-div {
+        padding: 0 10px;
+    }
+
+    .slid {
+        height: 400px;
+        width: 90%;
+        top: 50px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .slid .list .item .content h2{
+        /* font-size: 100px; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .slid .list .item .content p:nth-child(1) {
+        text-transform: uppercase;
+        letter-spacing: 12px;
+    
+    }
+    .al {
+        font-size: 13px; 
+      
+    }
+    
+    .slid .list .item  img {
+        max-width: 60vh;
+        width: 70%;
+        height: 70%;
+           object-fit: cover;
+       margin-left: 15%;
+       padding-bottom: 0;
+    } 
+    .thumbnail .items img {
+        width: 90%;
+        height: 100%;
+            object-fit: cover;
+       
+    }
+    .thumbnail .items .content {
+        position: absolute;
+        inset: auto 5px 5px 5px;
+        
+    } 
+    .thumbnail .items {
+        width: 80px;
+        height: 100px;
+        bottom: 0;
+    }
+    #prev{
+        background: #515;
+        width: 30px;
+        position: absolute;
+        bottom:15px;
+        margin-left: 55%;
+        z-index: 330;
+    
+    }
+    #next {
+      background: #515;
+        width: 30px;
+        position: absolute;
+        bottom:15px;
+        margin-left: 40%;
+        z-index: 330;
+       
+      
+    }
+ /* parts */
+ .dentalparts-maindiv {
+    height: auto; 
+    padding: 20px; }
+   
+
+.dental-parts {
+   flex-direction: column; 
+    height: auto; 
+    
+    
+}
+
+.dentparts p {
+    margin-bottom: 30px; 
+}
+
+.dentparts h2 {
+    font-size: 24px; 
+}
+
+
+ .dental-div h4 {
+    font-size: 20px;
+    position: absolute;
+    z-index: 6;
+    top: 5px;
+    left: 80px;
+ 
+      }
+    .dental-div img {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        z-index: 3;
+       
+        
+    }
+    .dental-div p {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        z-index: 7;
+        width: 180px;
+        height: 50px;
+      
+        
+        }
+    
+   
+
+        .dental-div {
+            position: relative;
+            width: 300px;
+            height: 150px;
+            display: flex;
+           border-radius: 20px;
+           margin-bottom: 30px;
+           
+        }
+
+ /*neon   */
+ .card {
+    cursor: pointer;
+    width: 420px;
+    /* width: 100px; */
+    height: 400px;
+    position: relative;
+    margin-top: 70%;
+
+}
+
+
+ .back img {
+     height: 300px;
+    width: 100%;
+ } 
+
+ aside {
+    width: 100%; 
+    height: auto;
+    margin-top: 0;
+    float: none;
+}
+
+.aside-text {
+    height: auto;
+}
+
+.asaidetext-h2 {
+    font-size: 22px; 
+    padding-bottom: 8px; }
+
+.asaidetext-h3 {
+    font-size: 16px;
+    padding-bottom: 8px; 
+    padding-top: 16px; }
+
+.asaidetext-p {
+    font-size: 12px; 
+    padding-bottom: 8px; 
+    font-weight: normal;
+}
+
+
+
+.container {
+    margin-left: -40px;}
+
+.icon-h3 {
+    font-size: 20px;
+    margin-top: -20px;
+    z-index: 170;
+    
+}
+.tooth{
+left:50%;
+}
+
+.div-corol {
+    height: 100%;
+    flex-direction: column;
+}
+.map-item {
+    width: 50%;
+    margin-left:5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .header {
+        width: 100%;
+    }
+    .off-screen-menu {
+        background-color: #641163; 
+        opacity:1;
+        height: 50vh;
+        width: 100%;
+        max-width: 250px;
+       
+        right: -250px;
+    }
+
+    .card {
+        cursor: pointer;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        margin-top: 50%;
+    
+    }
+        .home a{
+            color: white;
+            font-size: 20px;
+            
+        }
+        .home {
+            margin-bottom: 2px;
+            padding: 2px;
+        }
+        .accordion-title{
+            font-size: 20px;
+        }
+        .dn {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        
+    .header .icon-h2 {
+        font-size: 16px;
+    }
+    .ham-menu span {
+        width: 16px;
+        height: 2px;
+        margin: 3px 0;
+    }
+    .main-div {
+        padding: 0 5px;
+    }
+    .slid {
+        height: 350px;
+        width: 100%;
+        top: 40px;
+    }
+    .slid .list .item .content h2 {
+        font-size: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .slid .list .item .content p:nth-child(1) {
+        letter-spacing: 5px;
+    }
+    .al {
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .slid .list .item img {
+        max-width: 50vh;
+        width: 60%;
+        height: 60%;
+        margin-left: 20%;
+    }
+    .thumbnail {
+        position: absolute;
+       
+        z-index: 11;
+        display: flex;
+        gap: 5px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 35%;
+        overflow: auto;
+       
+    justify-content: center;
+    }
+    .thumbnail .items img {
+        max-width: 400px;
+        height: 100%;
+        width: 100%;
+    }
+    .thumbnail .items {
+        width: 50px;
+        height: 60px;
+    }
+    #prev {
+        margin-left: 50%;
+    }
+    #next {
+        margin-left: 35%;
+    }
+    .dental-div h4 {
+        font-size: 18px;
+        left: 60px;
+    }
+    .dental-div img {
+        width: 80px;
+        height: 80px;
+        top: 15px;
+    }
+    .dental-div p {
+        width: 140px;
+        height: 40px;
+        top: 15px;
+    }
+    .dental-div {
+        width: 240px;
+        height: 120px;
+    }
+    
+    aside {
+        width: 90%;
+    }
+    
+aside img {
+    background-image: url(../images/2bb.jpg);
+    width: 100%;
+}
+  
+
+
+
+
+
+
+
+    .container {
+        margin-left: -90px;
+    }
+    .icon-h3 {
+        font-size: 18px;
+        margin-top: -15px;
+    }
+    /* .tooth {
+        left: 45%;
+    } */
+
+
+
+    .footer-div {
+       
+        position: relative;
+        height: 200px;
+    }
+    .social-icons {
+        left: -20px;
+        top: 70px;
+        position: absolute;
+    }
+    .mailcall{
+        margin-left: 3px;
+        
+       flex-direction: column;
+        
+    }
+  
+    
+.img-container1{
+    flex-direction: column;
+    
+}
+.img-container {
+    
+    width: 100%;
+    justify-content: start;
+
+
+}
+
+
+.img-container:hover {
+    display: none !important;
+    }
+
+.map-item {
+   display: none;
+}
+.left-item {
+    width: 100%;
+ margin-left: 2px;
+}
+
+.nav-1unit a {
+    color:white;
+    font-size: 20px;}
+
+
+
+.nav-1unit-ul li {
+font-size: 20px;
+}
+.unit-list h3,
+.unit-list h2  {
+    border-bottom: none;
+}
+
+.amat30 img :nth-last-child(1) {
+    display: none;}
+.amat30 img :nth-last-child(3) {
+        display: none;}   
+  
+}
+
+
+
+
+
+

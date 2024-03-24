@@ -18,15 +18,15 @@ function toggleText() {
   }
   
 
-  // Function to fetch user data from JSONPlaceholder API
+
 function fetchUserData() {
   return axios.get('https://jsonplaceholder.typicode.com/users');
 }
 
-// Function to display user data
+
 function displayUsers(users) {
   const userListElement = document.getElementById('users-list');
-  userListElement.innerHTML = ''; // Clear previous search results
+  userListElement.innerHTML = ''; 
 
   users.forEach(user => {
     const li = document.createElement('li');
@@ -35,7 +35,7 @@ function displayUsers(users) {
   });
 }
 
-// Function to search for users
+//  search for users
 function searchUsers() {
   const searchTerm = document.getElementById('search-input').value.toLowerCase();
 

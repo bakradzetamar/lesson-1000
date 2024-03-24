@@ -1,7 +1,7 @@
 "use strick";
 
-// topto
-const scrollBtn = document.querySelector(".but");
+// totop
+ const scrollBtn = document.querySelector(".but");
 
 const butVisibility = () => {
     if (window.scrollY > 400) {
