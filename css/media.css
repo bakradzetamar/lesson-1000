@@ -539,11 +539,6 @@ left:50%;
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 320px) {
     .header {
         width: 100%;
@@ -724,9 +719,6 @@ aside img {
 }
 
 
-.img-container:hover {
-    display: none !important;
-    }
 
 .map-item {
    display: none;
