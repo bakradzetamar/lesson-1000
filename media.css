@@ -277,6 +277,12 @@
     max-width: 200px;
     width: 100%;
   }
+  .section-adev {
+    max-width: 600px;
+    width: 100%;
+    height: 600px;
+    margin-top: 10%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -505,6 +511,24 @@
     width: 100%;
     margin-right: 0;
     margin-left: 3px;
+  }
+  .mc18 {
+    margin-top: 30px;
+  }
+  .mc18 img {
+    height: 400px;
+  }
+  .mc11 p {
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .section-adev {
+    max-width: 380px;
+    width: 90%;
+    height: 400px;
+    margin-top: 20%;
+    margin-bottom: 30%;
+    margin-right: 20px;
   }
 }
 
@@ -796,5 +820,25 @@
   }
   .asid30 p {
     font-size: 16px;
+  }
+  .mc18 {
+    margin-top: 50px;
+  }
+  .mc18 img {
+    height: 300px;
+  }
+  .mc11 p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .adev500 {
+    width: 80%;
+  }
+  .section-adev {
+    max-width: 300px;
+    width: 80%;
+    height: 200px;
+    margin-top: 20%;
+    margin-bottom: 30%;
   }
 }
